@@ -29,7 +29,12 @@ Each example demonstrates a different feature, from adding data to removing fiel
 
 The following is the use of each method.
 #### Preparing database and models
-Import Database and Model.
+
+First of all, create a file with the example `"database.json"`
+```json
+{}
+```
+Well, that's enough, after that we move to the main file with the example `"index.js"`
 ```js
 const { Database, Model } = require("best-json-db");
 
@@ -56,7 +61,7 @@ module.exports = userSchema
 ```
 After that, we can do it like this.
 ```js
-const schema = require("./path/to/file")
+const schema = require("./path/to/file.js")
 
 // Initialize Model for the "users" collection
 const userModel = new Model(db, "users", schema);
@@ -154,7 +159,7 @@ const userModel = new Model(db, "users", schema);
 
 
 - Example 7: 
- * Deletes the user named John from the collection and displays the remaining entries.
+  * Deletes the user named John from the collection and displays the remaining entries.
 
 
 These separate examples will sequentially demonstrate each feature and update `database.json` accordingly.
