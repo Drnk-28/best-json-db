@@ -1,6 +1,6 @@
 {
   "name": "best-json-db",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The best JSON database solution for lightweight projects, ideal for caching and local storage needs.",
   "main": "index.js",
   "scripts": {
