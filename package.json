@@ -1,0 +1,33 @@
+{
+  "name": "best-json-db",
+  "version": "1.0.0",
+  "description": "The best JSON database solution for lightweight projects, ideal for caching and local storage needs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "database",
+    "json",
+    "db",
+    "sql"
+  ],
+  "author": "drnk.28",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Drnk-28/best-json-db.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Drnk-28/best-json-db/issues"
+  },
+  "homepage": "https://github.com/Drnk-28/best-json-db#readme"
+}
