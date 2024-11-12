@@ -1,4 +1,6 @@
 # best-json-db
+[![NPM](https://nodei.co/npm/best-json-db.png?downloads=true)](https://www.npmjs.com/package/best-json-db) 
+
 The best JSON database solution for lightweight projects, ideal for caching and local storage needs.
 
 ## Introduction
